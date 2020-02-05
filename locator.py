@@ -8,3 +8,7 @@ class AddToBasketTest:
 
     EXPECTED_PRICE_PRODUCT = (By.CSS_SELECTOR, 'div.col-sm-6.product_main .price_color')
     REAL_PRICE_PRODUCT = (By.CSS_SELECTOR, 'div.alertinner p strong ')
+
+class BasePageLocators:
+    LOGIN_LINK = (By.CSS_SELECTOR, '#login_link')
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
